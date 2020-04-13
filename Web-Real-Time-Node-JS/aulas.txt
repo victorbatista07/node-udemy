@@ -1,0 +1,11 @@
+1.7 - Entendendo o package.json
+1.8 - Escopos de variáveis globais
+1.9 - CommonJS, Como ele funciona?
+2.1 - Criando nossa primeira aplicação web
+2.2 - Como funciona um servidor http?
+2.3 - Trabalhando com diversas rotas
+2.4 - Separando o HTML do Javascript
+2.5 - Desafio: Implementar um roteador de url
+3.1 - Desenvolvendo de forma assíncrona
+3.2 - Assincronismo versus Sincronismo
+3.4 - Evitando Callbacks Hell

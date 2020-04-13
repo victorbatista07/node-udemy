@@ -1,0 +1,41 @@
+npm install nome_do_módulo: instala o módulo no projeto.
+
+npm install -g nome_do_módulo: instala um módulo global.
+
+npm install nome_do_módulo --save: instala o módulo no projeto, atualizando o
+package.json na lista de dependências.
+
+npm list: lista todos os módulos do projeto.
+
+npm list -g: lista todos os módulos globais.
+
+npm remove nome_do_módulo: desinstala um módulo do projeto.
+
+nom remove -g nome_do_módulo: desinstala um módulo global.
+
+npm update nome_do_módulo: atualiza a versão do módulo.
+
+npm update -g nome_do_módulo: atualiza a versão do módulo global.
+
+npm -v: exibe a versão atual do npm.
+
+npm adduser nome_do_usuário: cria cuma conta no npm, através do site (https://npmjs.org).
+
+npm whoami: exibe detalhes do seu perfil público npm (é necessário criar uma conta antes).
+
+npm publish: publica um módulo no site do npm, é necessário ter uma conta antes.
+
+/*
+É o atributo name que eu descrevo o nome do projeto, nome pelo qual meu módulo será chamado via função require('meu-primeiro-node-app')
+Em description descrevo o que será este módulo.
+O author é um atributo para informar o nome e email do autor, utilizando o formato: Nome <email>
+O atributo version é para definir a versão atual do módulo, sem ele é impossível instalar o módulo via comando npm
+O atributo private é um booleano, e determina se o projeto terá código aberto ou privado para download.
+Os módulos trabalham com 3 níveis de versionamento. Por exemplo, a versão 1.2.3 esta dividida nos níves: Mahor(1), Minor(2) e Patch(3).
+
+Os módulos com o caractere ~, serve para fazer atualizações a nívels de patch (1.0.x).
+
+Os módulso com os caracteres >=, atualiza versões que sejam maior ou igual a versão colocada (1.0.0) em todos os níveis de versão
+
+Os móudlos com o caractere "*", sempre pegará a última versão do módulo em qualquer nível. Geralmente ele é utilizado em devDependencies, que são dependências focadas para testes automatizados, e as atualizações dos módulos não prejudicam o comportamento do sistema que já está no ar
+*/
